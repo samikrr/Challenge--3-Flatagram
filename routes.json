@@ -1,0 +1,4 @@
+{
+    "/images/*": "/images/$1",
+    "/comments/*": "/comments/$1"
+  }
