@@ -47,19 +47,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Bonus: Comment deletion (Extra Bonus #2)
+    
     commentsList.addEventListener('click', (event) => {
         if (event.target && event.target.tagName === 'LI') {
             event.target.remove();
         }
     });
 
-    // Bonus: Toggle image display (Bonus #2)
+    
     titleElement.addEventListener('click', () => {
         imageElement.classList.toggle('hidden');
     });
 
-    // Bonus: Random dog image (Bonus #3)
+    
     imageElement.addEventListener('click', () => {
         fetch('https://dog.ceo/api/breeds/image/random')
             .then(response => response.json())
